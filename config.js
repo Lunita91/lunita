@@ -75,16 +75,15 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment	
 
-global.packname = '𝙉𝙖𝙣𝙞 𝘽𝙤𝙩 𝙈𝙖𝙭'
-global.author = '𝙉𝙖𝙣𝙞 𝘽𝙤𝙩 𝙈𝙖𝙭'
-
+global.packname = '𝕷𝖚𝖓𝖎𝖙𝖆 𝕭𝖔𝖙 🌙'
+global.author = '𝕷𝖚𝖓𝖎𝖙𝖆 𝕭𝖔𝖙 🌙'
 // ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
 // EN ➜ This part is to display someone's contact using #contact
 global.official = [ 
-['593993370003', 'Owner1', 1], 
-['593993370003', 'Owner2', 1],  
-['593993370003', 'Owner3', 1],
-['593993370003', 'Owner4', 1]] 
+['526122294403', 'Owner1', 1], 
+['526122294403', 'Owner2', 1],  
+['526122294403', 'Owner3', 1],
+['526122294403', 'Owner4', 1]] 
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
@@ -94,7 +93,7 @@ global.country = '' //agrega tú país ejemplo: 🇪🇨
 global.vs = '1.3.2-(beta)'
 global.vsJB = '4.5 (Beta)'
 
-global.gt = '𝙉𝙖𝙣𝙞 𝘽𝙤𝙩 𝙈𝙖𝙭'
+global.gt = '𝕷𝖚𝖓𝖎𝖙𝖆 𝕭𝖔𝖙 🌙'
 global.yt = ''
 global.yt2 = ''
 global.ig = ''
@@ -117,8 +116,8 @@ global.nnnttt5 = '' //A.T.M.M
 global.paypal = ''
 global.asistencia = 'Wa.me/593993370003' //Dudas? escríbeme...
 
-global.wm = '𝙉𝙖𝙣𝙞 𝘽𝙤𝙩 𝙈𝙖𝙭'
-global.igfg = '𝙉𝙖𝙣𝙞 𝘽𝙤𝙩 𝙈𝙖𝙭'
+global.wm = '𝕷𝖚𝖓𝖎𝖙𝖆 𝕭𝖔𝖙 🌙'
+global.igfg = '𝕷𝖚𝖓𝖎𝖙𝖆 𝕭𝖔𝖙 🌙'
 global.nomorown = owner[0][0]
 
 global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')
