@@ -91,7 +91,7 @@ global.chatgpt.chain = lodash.chain(global.chatgpt.data)
 }
 loadChatgptDB()
 
-global.authFile = `naniBotSession`;
+global.authFile = `CelosaBotSession`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = (MessageRetryMap) => { }
 const {version} = await fetchLatestBaileysVersion()
@@ -117,7 +117,7 @@ auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, pino({level: 'silent'})),
 },
-browser: ['NANI BOT MAX','Edge','2.0.0'],
+browser: ['CELOSA BOT','Edge','2.0.0'],
 version,
 defaultQueryTimeoutMs: undefined,
 }
@@ -341,7 +341,7 @@ unlinkSync(filePath)})
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./nanibotSession")
+let directorio = readdirSync("./CelosabotSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-')
 })
@@ -375,7 +375,7 @@ console.log(chalk.bold.red(lenguajeGB.smspurgeSessionSB3() + err))
 }}
 
 function purgeOldFiles() {
-const directories = ['./naniBotSession/', './naniBot/']
+const directories = ['./CelosaBotSession/', './naniBot/']
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
 if (err) throw err
